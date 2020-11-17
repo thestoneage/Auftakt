@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct AuftaktApp: App {
+    let practiceRunner = PracticeRunner()
+    let metronomeRunner = MetronomeRunner()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(mainRunner: metronomeRunner,
+                        practiceRunner: practiceRunner)
         }
     }
 }

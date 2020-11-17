@@ -8,11 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		491EB29B256464C500C30283 /* AuftaktApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB29A256464C500C30283 /* AuftaktApp.swift */; };
-		491EB29D256464C500C30283 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB29C256464C500C30283 /* ContentView.swift */; };
-		491EB29F256464C700C30283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491EB29E256464C700C30283 /* Assets.xcassets */; };
 		491EB2A2256464C700C30283 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491EB2A1256464C700C30283 /* Preview Assets.xcassets */; };
 		491EB2AD256464C700C30283 /* AuftaktTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB2AC256464C700C30283 /* AuftaktTests.swift */; };
 		491EB2B8256464C700C30283 /* AuftaktUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB2B7256464C700C30283 /* AuftaktUITests.swift */; };
+		491EB2D52564650600C30283 /* tb.wav in Resources */ = {isa = PBXBuildFile; fileRef = 491EB2D02564650600C30283 /* tb.wav */; };
+		491EB2D62564650600C30283 /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 491EB2D12564650600C30283 /* beep.wav */; };
+		491EB2D72564650600C30283 /* tw.wav in Resources */ = {isa = PBXBuildFile; fileRef = 491EB2D22564650600C30283 /* tw.wav */; };
+		491EB2D82564650600C30283 /* wbh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 491EB2D32564650600C30283 /* wbh.wav */; };
+		491EB2D92564650600C30283 /* wbl.wav in Resources */ = {isa = PBXBuildFile; fileRef = 491EB2D42564650600C30283 /* wbl.wav */; };
+		491EB2E82564657B00C30283 /* TabTempo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB2DE2564657B00C30283 /* TabTempo.swift */; };
+		491EB2E92564657B00C30283 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB2DF2564657B00C30283 /* Note.swift */; };
+		491EB2EA2564657B00C30283 /* Subdiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB2E02564657B00C30283 /* Subdiv.swift */; };
+		491EB2EB2564657B00C30283 /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB2E12564657B00C30283 /* Metronome.swift */; };
+		491EB2EC2564657B00C30283 /* Tempo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB2E22564657B00C30283 /* Tempo.swift */; };
+		491EB2ED2564657B00C30283 /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB2E32564657B00C30283 /* Measure.swift */; };
+		491EB2EE2564657B00C30283 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB2E42564657B00C30283 /* Practice.swift */; };
+		491EB2EF2564657B00C30283 /* PracticePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB2E52564657B00C30283 /* PracticePreset.swift */; };
+		491EB2F02564657B00C30283 /* MetronomePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB2E62564657B00C30283 /* MetronomePreset.swift */; };
+		491EB2F12564657B00C30283 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB2E72564657B00C30283 /* Extensions.swift */; };
+		491EB302256465AE00C30283 /* MetronomeRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB2FE256465AE00C30283 /* MetronomeRunner.swift */; };
+		491EB303256465AE00C30283 /* PracticeRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB2FF256465AE00C30283 /* PracticeRunner.swift */; };
+		491EB304256465AE00C30283 /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB300256465AE00C30283 /* Runner.swift */; };
+		491EB305256465AE00C30283 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB301256465AE00C30283 /* Sounds.swift */; };
+		491EB3142564660E00C30283 /* MeasureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB30D2564660D00C30283 /* MeasureView.swift */; };
+		491EB3152564660E00C30283 /* MeasureSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB30E2564660D00C30283 /* MeasureSettings.swift */; };
+		491EB3162564660E00C30283 /* AccentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB30F2564660D00C30283 /* AccentsView.swift */; };
+		491EB3172564660E00C30283 /* SubdivView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3102564660D00C30283 /* SubdivView.swift */; };
+		491EB3182564660E00C30283 /* TempoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3112564660D00C30283 /* TempoView.swift */; };
+		491EB3192564660E00C30283 /* InstrumentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3122564660E00C30283 /* InstrumentListView.swift */; };
+		491EB31A2564660E00C30283 /* RunnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3132564660E00C30283 /* RunnerView.swift */; };
+		491EB3222564661A00C30283 /* TapTempoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB31E2564661A00C30283 /* TapTempoView.swift */; };
+		491EB3232564661A00C30283 /* MetronomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB31F2564661A00C30283 /* MetronomeView.swift */; };
+		491EB3242564661A00C30283 /* CircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3202564661A00C30283 /* CircularSlider.swift */; };
+		491EB3252564661A00C30283 /* MetronomePresetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3212564661A00C30283 /* MetronomePresetViews.swift */; };
+		491EB32F2564662400C30283 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3292564662400C30283 /* BarView.swift */; };
+		491EB3302564662400C30283 /* StartGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB32A2564662400C30283 /* StartGoalView.swift */; };
+		491EB3312564662400C30283 /* PracticePresetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB32B2564662400C30283 /* PracticePresetViews.swift */; };
+		491EB3322564662400C30283 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB32C2564662400C30283 /* PracticeView.swift */; };
+		491EB3332564662400C30283 /* PracticeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB32D2564662400C30283 /* PracticeSettingsView.swift */; };
+		491EB3342564662400C30283 /* RotationalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB32E2564662400C30283 /* RotationalView.swift */; };
+		491EB3392564663A00C30283 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3382564663A00C30283 /* ContentView.swift */; };
+		491EB3482564665F00C30283 /* NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3402564665F00C30283 /* NoteTests.swift */; };
+		491EB3492564665F00C30283 /* TempoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3412564665F00C30283 /* TempoTests.swift */; };
+		491EB34A2564665F00C30283 /* TabTempoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3422564665F00C30283 /* TabTempoTests.swift */; };
+		491EB34B2564665F00C30283 /* SoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3432564665F00C30283 /* SoundsTests.swift */; };
+		491EB34C2564665F00C30283 /* SubdivTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3442564665F00C30283 /* SubdivTests.swift */; };
+		491EB34D2564665F00C30283 /* MeasureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3452564665F00C30283 /* MeasureTests.swift */; };
+		491EB34E2564665F00C30283 /* MetronomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3462564665F00C30283 /* MetronomeTests.swift */; };
+		491EB34F2564665F00C30283 /* PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3472564665F00C30283 /* PracticeTests.swift */; };
+		491EB3562564671700C30283 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 491EB3582564671700C30283 /* Localizable.stringsdict */; };
+		491EB35C2564672600C30283 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 491EB35E2564672600C30283 /* Localizable.strings */; };
+		491EB36E2564682200C30283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491EB36D2564682200C30283 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +81,6 @@
 /* Begin PBXFileReference section */
 		491EB297256464C500C30283 /* Auftakt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auftakt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		491EB29A256464C500C30283 /* AuftaktApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuftaktApp.swift; sourceTree = "<group>"; };
-		491EB29C256464C500C30283 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		491EB29E256464C700C30283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		491EB2A1256464C700C30283 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		491EB2A3256464C700C30283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		491EB2A8256464C700C30283 /* AuftaktTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuftaktTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +89,56 @@
 		491EB2B3256464C700C30283 /* AuftaktUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuftaktUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		491EB2B7256464C700C30283 /* AuftaktUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuftaktUITests.swift; sourceTree = "<group>"; };
 		491EB2B9256464C700C30283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491EB2D02564650600C30283 /* tb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tb.wav; sourceTree = "<group>"; };
+		491EB2D12564650600C30283 /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		491EB2D22564650600C30283 /* tw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tw.wav; sourceTree = "<group>"; };
+		491EB2D32564650600C30283 /* wbh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wbh.wav; sourceTree = "<group>"; };
+		491EB2D42564650600C30283 /* wbl.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wbl.wav; sourceTree = "<group>"; };
+		491EB2DE2564657B00C30283 /* TabTempo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabTempo.swift; sourceTree = "<group>"; };
+		491EB2DF2564657B00C30283 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		491EB2E02564657B00C30283 /* Subdiv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subdiv.swift; sourceTree = "<group>"; };
+		491EB2E12564657B00C30283 /* Metronome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metronome.swift; sourceTree = "<group>"; };
+		491EB2E22564657B00C30283 /* Tempo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tempo.swift; sourceTree = "<group>"; };
+		491EB2E32564657B00C30283 /* Measure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measure.swift; sourceTree = "<group>"; };
+		491EB2E42564657B00C30283 /* Practice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		491EB2E52564657B00C30283 /* PracticePreset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticePreset.swift; sourceTree = "<group>"; };
+		491EB2E62564657B00C30283 /* MetronomePreset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetronomePreset.swift; sourceTree = "<group>"; };
+		491EB2E72564657B00C30283 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		491EB2FE256465AE00C30283 /* MetronomeRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetronomeRunner.swift; sourceTree = "<group>"; };
+		491EB2FF256465AE00C30283 /* PracticeRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeRunner.swift; sourceTree = "<group>"; };
+		491EB300256465AE00C30283 /* Runner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
+		491EB301256465AE00C30283 /* Sounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		491EB30D2564660D00C30283 /* MeasureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureView.swift; sourceTree = "<group>"; };
+		491EB30E2564660D00C30283 /* MeasureSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureSettings.swift; sourceTree = "<group>"; };
+		491EB30F2564660D00C30283 /* AccentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccentsView.swift; sourceTree = "<group>"; };
+		491EB3102564660D00C30283 /* SubdivView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubdivView.swift; sourceTree = "<group>"; };
+		491EB3112564660D00C30283 /* TempoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempoView.swift; sourceTree = "<group>"; };
+		491EB3122564660E00C30283 /* InstrumentListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentListView.swift; sourceTree = "<group>"; };
+		491EB3132564660E00C30283 /* RunnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunnerView.swift; sourceTree = "<group>"; };
+		491EB31E2564661A00C30283 /* TapTempoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapTempoView.swift; sourceTree = "<group>"; };
+		491EB31F2564661A00C30283 /* MetronomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetronomeView.swift; sourceTree = "<group>"; };
+		491EB3202564661A00C30283 /* CircularSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularSlider.swift; sourceTree = "<group>"; };
+		491EB3212564661A00C30283 /* MetronomePresetViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetronomePresetViews.swift; sourceTree = "<group>"; };
+		491EB3292564662400C30283 /* BarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		491EB32A2564662400C30283 /* StartGoalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartGoalView.swift; sourceTree = "<group>"; };
+		491EB32B2564662400C30283 /* PracticePresetViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticePresetViews.swift; sourceTree = "<group>"; };
+		491EB32C2564662400C30283 /* PracticeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		491EB32D2564662400C30283 /* PracticeSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeSettingsView.swift; sourceTree = "<group>"; };
+		491EB32E2564662400C30283 /* RotationalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationalView.swift; sourceTree = "<group>"; };
+		491EB3382564663A00C30283 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		491EB3402564665F00C30283 /* NoteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTests.swift; sourceTree = "<group>"; };
+		491EB3412564665F00C30283 /* TempoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempoTests.swift; sourceTree = "<group>"; };
+		491EB3422564665F00C30283 /* TabTempoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabTempoTests.swift; sourceTree = "<group>"; };
+		491EB3432564665F00C30283 /* SoundsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundsTests.swift; sourceTree = "<group>"; };
+		491EB3442564665F00C30283 /* SubdivTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubdivTests.swift; sourceTree = "<group>"; };
+		491EB3452564665F00C30283 /* MeasureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureTests.swift; sourceTree = "<group>"; };
+		491EB3462564665F00C30283 /* MetronomeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetronomeTests.swift; sourceTree = "<group>"; };
+		491EB3472564665F00C30283 /* PracticeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeTests.swift; sourceTree = "<group>"; };
+		491EB3572564671700C30283 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		491EB35D2564672600C30283 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		491EB3622564675700C30283 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		491EB3662564675700C30283 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = de; path = de.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		491EB36D2564682200C30283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +189,13 @@
 		491EB299256464C500C30283 /* Auftakt */ = {
 			isa = PBXGroup;
 			children = (
+				491EB36D2564682200C30283 /* Assets.xcassets */,
+				491EB309256465C900C30283 /* Views */,
+				491EB35E2564672600C30283 /* Localizable.strings */,
+				491EB3582564671700C30283 /* Localizable.stringsdict */,
+				491EB2DD2564655B00C30283 /* Models */,
+				491EB2C8256464DC00C30283 /* Sounds */,
 				491EB29A256464C500C30283 /* AuftaktApp.swift */,
-				491EB29C256464C500C30283 /* ContentView.swift */,
-				491EB29E256464C700C30283 /* Assets.xcassets */,
 				491EB2A3256464C700C30283 /* Info.plist */,
 				491EB2A0256464C700C30283 /* Preview Content */,
 			);
@@ -115,6 +213,14 @@
 		491EB2AB256464C700C30283 /* AuftaktTests */ = {
 			isa = PBXGroup;
 			children = (
+				491EB3452564665F00C30283 /* MeasureTests.swift */,
+				491EB3462564665F00C30283 /* MetronomeTests.swift */,
+				491EB3402564665F00C30283 /* NoteTests.swift */,
+				491EB3472564665F00C30283 /* PracticeTests.swift */,
+				491EB3432564665F00C30283 /* SoundsTests.swift */,
+				491EB3442564665F00C30283 /* SubdivTests.swift */,
+				491EB3422564665F00C30283 /* TabTempoTests.swift */,
+				491EB3412564665F00C30283 /* TempoTests.swift */,
 				491EB2AC256464C700C30283 /* AuftaktTests.swift */,
 				491EB2AE256464C700C30283 /* Info.plist */,
 			);
@@ -128,6 +234,96 @@
 				491EB2B9256464C700C30283 /* Info.plist */,
 			);
 			path = AuftaktUITests;
+			sourceTree = "<group>";
+		};
+		491EB2C8256464DC00C30283 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				491EB2D12564650600C30283 /* beep.wav */,
+				491EB2D02564650600C30283 /* tb.wav */,
+				491EB2D22564650600C30283 /* tw.wav */,
+				491EB2D32564650600C30283 /* wbh.wav */,
+				491EB2D42564650600C30283 /* wbl.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		491EB2DD2564655B00C30283 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				491EB2FD256465A300C30283 /* Runner */,
+				491EB2E72564657B00C30283 /* Extensions.swift */,
+				491EB2E32564657B00C30283 /* Measure.swift */,
+				491EB2E12564657B00C30283 /* Metronome.swift */,
+				491EB2E62564657B00C30283 /* MetronomePreset.swift */,
+				491EB2DF2564657B00C30283 /* Note.swift */,
+				491EB2E42564657B00C30283 /* Practice.swift */,
+				491EB2E52564657B00C30283 /* PracticePreset.swift */,
+				491EB2E02564657B00C30283 /* Subdiv.swift */,
+				491EB2DE2564657B00C30283 /* TabTempo.swift */,
+				491EB2E22564657B00C30283 /* Tempo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		491EB2FD256465A300C30283 /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				491EB2FE256465AE00C30283 /* MetronomeRunner.swift */,
+				491EB2FF256465AE00C30283 /* PracticeRunner.swift */,
+				491EB300256465AE00C30283 /* Runner.swift */,
+				491EB301256465AE00C30283 /* Sounds.swift */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+		491EB309256465C900C30283 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				491EB3382564663A00C30283 /* ContentView.swift */,
+				491EB30A256465D100C30283 /* Generic */,
+				491EB30B256465D900C30283 /* Metronome */,
+				491EB30C256465E100C30283 /* Practice */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		491EB30A256465D100C30283 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				491EB30F2564660D00C30283 /* AccentsView.swift */,
+				491EB3122564660E00C30283 /* InstrumentListView.swift */,
+				491EB30E2564660D00C30283 /* MeasureSettings.swift */,
+				491EB30D2564660D00C30283 /* MeasureView.swift */,
+				491EB3132564660E00C30283 /* RunnerView.swift */,
+				491EB3102564660D00C30283 /* SubdivView.swift */,
+				491EB3112564660D00C30283 /* TempoView.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		491EB30B256465D900C30283 /* Metronome */ = {
+			isa = PBXGroup;
+			children = (
+				491EB3202564661A00C30283 /* CircularSlider.swift */,
+				491EB3212564661A00C30283 /* MetronomePresetViews.swift */,
+				491EB31F2564661A00C30283 /* MetronomeView.swift */,
+				491EB31E2564661A00C30283 /* TapTempoView.swift */,
+			);
+			path = Metronome;
+			sourceTree = "<group>";
+		};
+		491EB30C256465E100C30283 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				491EB3292564662400C30283 /* BarView.swift */,
+				491EB32B2564662400C30283 /* PracticePresetViews.swift */,
+				491EB32D2564662400C30283 /* PracticeSettingsView.swift */,
+				491EB32C2564662400C30283 /* PracticeView.swift */,
+				491EB32E2564662400C30283 /* RotationalView.swift */,
+				491EB32A2564662400C30283 /* StartGoalView.swift */,
+			);
+			path = Practice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +411,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 491EB28E256464C500C30283;
 			productRefGroup = 491EB298256464C500C30283 /* Products */;
@@ -233,8 +430,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491EB2D62564650600C30283 /* beep.wav in Resources */,
+				491EB2D52564650600C30283 /* tb.wav in Resources */,
 				491EB2A2256464C700C30283 /* Preview Assets.xcassets in Resources */,
-				491EB29F256464C700C30283 /* Assets.xcassets in Resources */,
+				491EB2D92564650600C30283 /* wbl.wav in Resources */,
+				491EB3562564671700C30283 /* Localizable.stringsdict in Resources */,
+				491EB2D82564650600C30283 /* wbh.wav in Resources */,
+				491EB35C2564672600C30283 /* Localizable.strings in Resources */,
+				491EB36E2564682200C30283 /* Assets.xcassets in Resources */,
+				491EB2D72564650600C30283 /* tw.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +463,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				491EB29D256464C500C30283 /* ContentView.swift in Sources */,
+				491EB32F2564662400C30283 /* BarView.swift in Sources */,
+				491EB2EE2564657B00C30283 /* Practice.swift in Sources */,
+				491EB2EB2564657B00C30283 /* Metronome.swift in Sources */,
+				491EB3242564661A00C30283 /* CircularSlider.swift in Sources */,
+				491EB305256465AE00C30283 /* Sounds.swift in Sources */,
+				491EB2EF2564657B00C30283 /* PracticePreset.swift in Sources */,
+				491EB3342564662400C30283 /* RotationalView.swift in Sources */,
+				491EB2ED2564657B00C30283 /* Measure.swift in Sources */,
+				491EB2EA2564657B00C30283 /* Subdiv.swift in Sources */,
+				491EB3322564662400C30283 /* PracticeView.swift in Sources */,
+				491EB3172564660E00C30283 /* SubdivView.swift in Sources */,
+				491EB3312564662400C30283 /* PracticePresetViews.swift in Sources */,
+				491EB3332564662400C30283 /* PracticeSettingsView.swift in Sources */,
+				491EB3162564660E00C30283 /* AccentsView.swift in Sources */,
+				491EB3192564660E00C30283 /* InstrumentListView.swift in Sources */,
+				491EB31A2564660E00C30283 /* RunnerView.swift in Sources */,
+				491EB3152564660E00C30283 /* MeasureSettings.swift in Sources */,
 				491EB29B256464C500C30283 /* AuftaktApp.swift in Sources */,
+				491EB2F12564657B00C30283 /* Extensions.swift in Sources */,
+				491EB303256465AE00C30283 /* PracticeRunner.swift in Sources */,
+				491EB2F02564657B00C30283 /* MetronomePreset.swift in Sources */,
+				491EB302256465AE00C30283 /* MetronomeRunner.swift in Sources */,
+				491EB3252564661A00C30283 /* MetronomePresetViews.swift in Sources */,
+				491EB3392564663A00C30283 /* ContentView.swift in Sources */,
+				491EB3142564660E00C30283 /* MeasureView.swift in Sources */,
+				491EB3222564661A00C30283 /* TapTempoView.swift in Sources */,
+				491EB3302564662400C30283 /* StartGoalView.swift in Sources */,
+				491EB3182564660E00C30283 /* TempoView.swift in Sources */,
+				491EB2E82564657B00C30283 /* TabTempo.swift in Sources */,
+				491EB3232564661A00C30283 /* MetronomeView.swift in Sources */,
+				491EB304256465AE00C30283 /* Runner.swift in Sources */,
+				491EB2E92564657B00C30283 /* Note.swift in Sources */,
+				491EB2EC2564657B00C30283 /* Tempo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +503,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491EB34E2564665F00C30283 /* MetronomeTests.swift in Sources */,
 				491EB2AD256464C700C30283 /* AuftaktTests.swift in Sources */,
+				491EB34A2564665F00C30283 /* TabTempoTests.swift in Sources */,
+				491EB34D2564665F00C30283 /* MeasureTests.swift in Sources */,
+				491EB34F2564665F00C30283 /* PracticeTests.swift in Sources */,
+				491EB34C2564665F00C30283 /* SubdivTests.swift in Sources */,
+				491EB3492564665F00C30283 /* TempoTests.swift in Sources */,
+				491EB3482564665F00C30283 /* NoteTests.swift in Sources */,
+				491EB34B2564665F00C30283 /* SoundsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +538,33 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		491EB3582564671700C30283 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491EB3572564671700C30283 /* en */,
+				491EB3662564675700C30283 /* de */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+		491EB35E2564672600C30283 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491EB35D2564672600C30283 /* en */,
+				491EB3622564675700C30283 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		491EB2BA256464C700C30283 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -347,7 +612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -361,6 +626,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -402,7 +668,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -430,7 +696,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.thestoneage.Auftakt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,7 +718,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.thestoneage.Auftakt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

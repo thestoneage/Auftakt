@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bars</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@VARIABLE@</string>
+		<key>VARIABLE</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>No Bar</string>
+			<key>one</key>
+			<string>%d Bar</string>
+			<key>two</key>
+			<string>%d Bars</string>
+			<key>few</key>
+			<string>%d Bars</string>
+			<key>many</key>
+			<string>%d Bars</string>
+			<key>other</key>
+			<string>%d Bars</string>
+		</dict>
+	</dict>
+	<key>repetitions</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@VARIABLE@</string>
+		<key>VARIABLE</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>No Repetition</string>
+			<key>one</key>
+			<string>%d Repetition</string>
+			<key>two</key>
+			<string>%d Repetitions</string>
+			<key>few</key>
+			<string>%d Repetitions</string>
+			<key>many</key>
+			<string>%d Repetitions</string>
+			<key>other</key>
+			<string>%d Repetitions</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
