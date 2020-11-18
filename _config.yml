@@ -1,5 +1,5 @@
 #page title
-page_title                                : "Auftakt"                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1517383962                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -9,10 +9,10 @@ playstore_link                            :                                     
 #presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  :  /Auftakt/assets/app-icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_icon                                  :  /IDResistors/assets/app-icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :  "Auftakt"                                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :  "Free"                                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Metronome for practicing.
+app_description                           : iOS Metronome with a pracice mode.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -20,7 +20,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : Marc Rummel
-your_link                                 : https://thestoneage.github.io/Auftakt
+your_link                                 : https://www.github.com/Auftakt
 your_city                                 : Karlsruhe
 email_address                             : thestoneagesoftware@gmail.com
 facebook_username                         :
@@ -42,22 +42,26 @@ features                                  :
     description                           : Set BPMs by tapping on a button.
     fontawesome_icon_name                 : magic
 
-- title                                   : Practice Mode
-    description                           : Practice musical pieces and increase your speed.
+  - title                                 : Practice Mode
+    description                           : Practice musical pieces and increase your speed,
     fontawesome_icon_name                 : magic
 
-- title                                   : Multiple Sounds
+  - title                                 : Multiple Sounds
     description                           : Select sounds that suit your preference.
-    fontawesome_icon_name                 : magic
+    fontawesome_icon_name                 : sync
 
-- title                                   : Presets
+  - title                                 : No Adds no data collection
+    description                           : No Adds in the app and no data collection.
+    fontawesome_icon_name                 : adjust
+
+  - title                                 : Presets
     description                           : Presets for metronome and practice mode.
     fontawesome_icon_name                 : magic
 
   - title                                 : Dark Mode
     description                           : Auftakt supports dark mode.
     fontawesome_icon_name                 : mobile
-
+    
   - title                                 : Open Source
     description                           : You can check out the source code on github.
     fontawesome_icon_name                 : sync
@@ -65,13 +69,6 @@ features                                  :
   - title                                 : No Adds no data collection
     description                           : No Adds in the app and no data collection.
     fontawesome_icon_name                 : adjust
-
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
-
-
 
 # Theme Settings
 topbar_color                              : "#000000"
