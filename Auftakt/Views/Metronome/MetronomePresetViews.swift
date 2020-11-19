@@ -29,11 +29,12 @@ struct MetronomePresetListView: View {
     let editModeTitle = NSLocalizedString("Edit Title of Preset", comment: "Title of the Textfield to rename Preset")
     
     @Environment(\.presentationMode) var presentationMode
-    @Environment(\.editMode) var editMode
-    
-    @AppStorage(MetronomePreset.key) var presets: [MetronomePreset] = [MetronomePreset.defaultPreset]
+
+    @AppStorage(MetronomePreset.key) var presets: [MetronomePreset] = MetronomePreset.initialPresets
     
     @Binding var metronome: Metronome
+
+    @State var editMode: EditMode = .inactive
     
     @State private var addMode = false
     @State private var presetTitle = ""
@@ -70,7 +71,7 @@ struct MetronomePresetListView: View {
                     ForEach(presets, id: \.self.id) { preset in
                         MetronomePresetRowView(metronomePreset: preset, isBold: preset.id == editPreset?.id)
                             .onTapGesture {
-                                if editMode?.wrappedValue == .active {
+                                if editMode == .active {
                                     editPreset = preset
                                     editTitle = preset.name
                                 }
@@ -91,8 +92,10 @@ struct MetronomePresetListView: View {
                                             addMode.toggle()
                                         }) {
                                             Image(systemName: "plus")
-                                        },
-                                    trailing: EditButton())
+                                        }.disabled(editMode == .active),
+                                    trailing:
+                                        EditButton())
+                .environment(\.editMode, $editMode)
             }
         }
     }
