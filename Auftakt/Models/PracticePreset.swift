@@ -18,4 +18,6 @@ struct PracticePreset: Identifiable, Codable {
 
 extension PracticePreset {
     static var defaultPreset = PracticePreset(name: "Default Practice")
+    
+    static var defaultPresets =  [Self.defaultPreset]
 }

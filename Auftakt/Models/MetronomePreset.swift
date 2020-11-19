@@ -19,4 +19,32 @@ struct MetronomePreset: Identifiable, Codable {
 
 extension MetronomePreset {
     static let defaultPreset = MetronomePreset(name: "Default Metronome")
+    
+    static let sultansOfSwing = MetronomePreset(name: "Sultans of swing",
+                                                metronome: Metronome(tempo: Tempo(bpm: 152),
+                                                                     measure: Measure(beats: .four, note: .quarter)))
+ 
+    static let stairwayToHeaven = MetronomePreset(name: "Stairway to heaven",
+                                                metronome: Metronome(tempo: Tempo(bpm: 82),
+                                                                     measure: Measure(beats: .four, note: .quarter)))
+    
+    static let hallelujah = MetronomePreset(name: "Hallelujah",
+                                                metronome: Metronome(tempo: Tempo(bpm: 50),
+                                                                     measure: Measure(beats: .six, note: .eighth)))
+
+    static let myWave = MetronomePreset(name: "My Wave",
+                                                metronome: Metronome(tempo: Tempo(bpm: 126),
+                                                                     measure: Measure(beats: .five, note: .quarter)))
+
+    static let money = MetronomePreset(name: "Money",
+                                                metronome: Metronome(tempo: Tempo(bpm: 123),
+                                                                     measure: Measure(beats: .seven, note: .quarter)))
+    
+    static let weCanWorkItOut = MetronomePreset(name: "We can work it out",
+                                                metronome: Metronome(tempo: Tempo(bpm: 110),
+                                                                     measure: Measure(beats: .three, note: .quarter)))
+    
+    static let initialPresets = [sultansOfSwing, stairwayToHeaven, hallelujah, myWave, money, weCanWorkItOut]
+    
+    static let defaultPresets = [Self.defaultPreset]
 }

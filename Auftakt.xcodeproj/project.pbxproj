@@ -79,6 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		490B016D2566B5030034B0FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		491EB297256464C500C30283 /* Auftakt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auftakt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		491EB29A256464C500C30283 /* AuftaktApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuftaktApp.swift; sourceTree = "<group>"; };
 		491EB2A1256464C700C30283 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -169,6 +170,7 @@
 		491EB28E256464C500C30283 = {
 			isa = PBXGroup;
 			children = (
+				490B016D2566B5030034B0FC /* README.md */,
 				491EB299256464C500C30283 /* Auftakt */,
 				491EB2AB256464C700C30283 /* AuftaktTests */,
 				491EB2B6256464C700C30283 /* AuftaktUITests */,
@@ -189,10 +191,10 @@
 		491EB299256464C500C30283 /* Auftakt */ = {
 			isa = PBXGroup;
 			children = (
-				491EB36D2564682200C30283 /* Assets.xcassets */,
-				491EB309256465C900C30283 /* Views */,
 				491EB35E2564672600C30283 /* Localizable.strings */,
 				491EB3582564671700C30283 /* Localizable.stringsdict */,
+				491EB36D2564682200C30283 /* Assets.xcassets */,
+				491EB309256465C900C30283 /* Views */,
 				491EB2DD2564655B00C30283 /* Models */,
 				491EB2C8256464DC00C30283 /* Sounds */,
 				491EB29A256464C500C30283 /* AuftaktApp.swift */,
