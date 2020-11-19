@@ -35,11 +35,12 @@ struct PracticePresetListView: View {
     let editModeTitle = NSLocalizedString("Edit Title of Preset", comment: "Title of the Textfield to rename Preset")
 
     @Environment(\.presentationMode) var presentationMode
-    @Environment(\.editMode) var editMode
     
     @AppStorage(PracticePreset.key) var presets: [PracticePreset] = [PracticePreset.defaultPreset]
     
     @Binding var practice: Practice
+    
+    @State var editMode: EditMode = .inactive
     
     @State private var addMode = false
     @State private var presetTitle = ""
@@ -77,7 +78,7 @@ struct PracticePresetListView: View {
                     ForEach(presets, id: \.self.id) { preset in
                         PracticePresetRowView(preset: preset, isBold: preset.id == editPreset?.id)
                             .onTapGesture {
-                                if editMode?.wrappedValue == .active {
+                                if editMode == .active {
                                     editPreset = preset
                                     editTitle = preset.name
                                 }
@@ -98,8 +99,9 @@ struct PracticePresetListView: View {
                                     Button(action: {
                                     }) {
                                         Image(systemName: "plus")
-                                    },
+                                    }.disabled(editMode == .active),
                                 trailing: EditButton())
+            .environment(\.editMode, $editMode)
             
         }
     }
