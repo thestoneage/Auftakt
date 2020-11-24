@@ -44,7 +44,7 @@ struct MetronomeView: View {
                                    value: $metronomeRunner.metronome.tempo.bpm)
                         .aspectRatio(1.0, contentMode: .fill)
                     RunnerView(runner: metronomeRunner)
-                        .padding(UIScreen.main.bounds.width / 3.0)
+                        .padding(UIScreen.main.bounds.width / 2.6)
                 }
                 ZStack(alignment: .bottom) {
                     VStack {
