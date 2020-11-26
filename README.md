@@ -13,6 +13,13 @@ Auftakt [ˈaʊ̯ftakt] - german for prelude is a metronome app for iPhone writte
 - Presets for metronome and practice mode.
 - Support for dark mode.
 
+## Screenshots
+
+![Screenshot](https://github.com/thestoneage/Auftakt/blob/gh-pages/assets/screenshots/screenshot-05.png)
+![Screenshot](https://github.com/thestoneage/Auftakt/blob/gh-pages/assets/screenshots/screenshot-06.png)
+![Screenshot](https://github.com/thestoneage/Auftakt/blob/gh-pages/assets/screenshots/screenshot-03.png)
+
+
 ## Requirements
 
 - For Development: XCode 12, MacOS Catalina or later
