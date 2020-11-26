@@ -10,8 +10,8 @@ playstore_link                            :                                     
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  :  /Auftakt/assets/app-icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :  "Auftakt"                                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :  "Free"                                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  :  Auftakt                                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :  Free                                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : iOS Metronome with a pracice mode.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
@@ -24,8 +24,8 @@ your_link                                 : https://www.github.com/thestoneage/A
 your_city                                 : Karlsruhe
 email_address                             : thestoneagesoftware@gmail.com
 facebook_username                         :
-#instagram_username                        : ebaehr
-#twitter_username                          : thestoneage
+#instagram_username                       : ebaehr
+twitter_username                          : thestoneage
 github_username                           : thestoneage
 #youtube_username                          :
 
@@ -65,10 +65,6 @@ features                                  :
   - title                                 : Open Source
     description                           : You can check out the source code on github.
     fontawesome_icon_name                 : sync
-
-  - title                                 : No Adds no data collection
-    description                           : No Adds in the app and no data collection.
-    fontawesome_icon_name                 : adjust
 
 # Theme Settings
 topbar_color                              : "#000000"

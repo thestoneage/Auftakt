@@ -11,9 +11,13 @@ include_in_header: true
 
 Auftakt [ˈaʊ̯ftakt] is a metronome app with a mode, which let's you practice a given set of bars with increasing speed.
 
-- THT color code with 4 or 5 rings.
-- SMD resistor codes with 3 or 4 digits.
+- Metronome with multiple Measures, Subdivisions and Sounds.
+- Set BPMs by tapping on a button.
+- Select sounds that suit your preference.
+- No Adds in the app and no data collection.
+- Presets for metronome and practice mode.
 - Support for dark mode.
+- You can check out the source code on [github](https://github.com/thestoneage/Auftakt).
 
 <!-- # **Version 1.1**
 
