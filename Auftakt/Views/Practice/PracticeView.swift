@@ -168,7 +168,7 @@ struct PracticeView: View {
                                    isRunning: runner.isRunning)
                         .aspectRatio(1.0, contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
                     RunnerView(runner: (runner))
-                        .padding(UIScreen.main.bounds.width / 2.6)
+                        .padding(UIScreen.main.bounds.width / 2.8)
                 }
                 FourCornersView(sheet: $sheet)
             }
