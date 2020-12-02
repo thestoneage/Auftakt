@@ -6,11 +6,17 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 @main
 struct AuftaktApp: App {
     let practiceRunner = PracticeRunner()
     let metronomeRunner = MetronomeRunner()
+    
+    init() {
+        let sharedSession = AVAudioSession.sharedInstance()
+        try? sharedSession.setCategory(.playback)
+    }
     
     var body: some Scene {
         WindowGroup {
