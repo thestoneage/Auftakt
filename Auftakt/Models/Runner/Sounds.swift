@@ -11,6 +11,7 @@ import Foundation
 enum Instrument: Int, CaseIterable, Codable {
     case wood
     case tamborine
+    case electro
     
     var sounds: Sounds {
         switch self {
@@ -18,6 +19,8 @@ enum Instrument: Int, CaseIterable, Codable {
             return Sounds.tamborine
         case .wood:
             return Sounds.wood
+        case .electro:
+            return Sounds.electro
         }
     }
 }
@@ -32,20 +35,28 @@ struct Sounds: Codable {
 
 extension Sounds {
     
-    static var wood: Sounds {
+    static let wood: Sounds = {
         let title = NSLocalizedString("Wood", comment: "Title of Wood Instrument")
         let normal = Bundle.main.url(forResource: "wbl", withExtension: "wav")
         let accent = Bundle.main.url(forResource: "wbh", withExtension: "wav")
         let subdiv = Bundle.main.url(forResource: "wbl", withExtension: "wav")
         return Sounds(title: title, normal: normal, accent: accent, subdiv: subdiv)
-    }
+    }()
     
-    static var tamborine: Sounds {
+    static let tamborine: Sounds = {
         let title = NSLocalizedString("Tamborine", comment: "Title of Tamborine Instrument")
         let normal = Bundle.main.url(forResource: "tw", withExtension: "wav")
         let accent = Bundle.main.url(forResource: "tb", withExtension: "wav")
         let subdiv = Bundle.main.url(forResource: "tb", withExtension: "wav")
         return Sounds(title: title, normal: normal, accent: accent, subdiv: subdiv)
-    }
+    }()
+    
+    static let electro: Sounds = {
+        let title = NSLocalizedString("Electro", comment: "Title of Tamborine Instrument")
+        let normal = Bundle.main.url(forResource: "c78l", withExtension: "wav")
+        let accent = Bundle.main.url(forResource: "c78h", withExtension: "wav")
+        let subdiv = Bundle.main.url(forResource: "c78l", withExtension: "wav")
+        return Sounds(title: title, normal: normal, accent: accent, subdiv: subdiv)
+    }()
     
 }

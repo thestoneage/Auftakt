@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct MetronomePresetRowView: View {
+struct MetronomePresetRowView: View { 
     let metronomePreset: MetronomePreset
     var isBold: Bool = false
     

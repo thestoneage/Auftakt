@@ -59,6 +59,8 @@
 		491EB3562564671700C30283 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 491EB3582564671700C30283 /* Localizable.stringsdict */; };
 		491EB35C2564672600C30283 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 491EB35E2564672600C30283 /* Localizable.strings */; };
 		491EB36E2564682200C30283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491EB36D2564682200C30283 /* Assets.xcassets */; };
+		495CB1F6257837AE00439E3C /* c78h.wav in Resources */ = {isa = PBXBuildFile; fileRef = 495CB1F4257837AE00439E3C /* c78h.wav */; };
+		495CB1F7257837AE00439E3C /* c78l.wav in Resources */ = {isa = PBXBuildFile; fileRef = 495CB1F5257837AE00439E3C /* c78l.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +142,8 @@
 		491EB3622564675700C30283 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		491EB3662564675700C30283 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = de; path = de.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		491EB36D2564682200C30283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		495CB1F4257837AE00439E3C /* c78h.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = c78h.wav; sourceTree = "<group>"; };
+		495CB1F5257837AE00439E3C /* c78l.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = c78l.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +245,8 @@
 		491EB2C8256464DC00C30283 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				495CB1F4257837AE00439E3C /* c78h.wav */,
+				495CB1F5257837AE00439E3C /* c78l.wav */,
 				491EB2D12564650600C30283 /* beep.wav */,
 				491EB2D02564650600C30283 /* tb.wav */,
 				491EB2D22564650600C30283 /* tw.wav */,
@@ -432,7 +438,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				495CB1F6257837AE00439E3C /* c78h.wav in Resources */,
 				491EB2D62564650600C30283 /* beep.wav in Resources */,
+				495CB1F7257837AE00439E3C /* c78l.wav in Resources */,
 				491EB2D52564650600C30283 /* tb.wav in Resources */,
 				491EB2A2256464C700C30283 /* Preview Assets.xcassets in Resources */,
 				491EB2D92564650600C30283 /* wbl.wav in Resources */,
