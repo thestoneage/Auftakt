@@ -52,7 +52,7 @@ extension Sounds {
     }()
     
     static let electro: Sounds = {
-        let title = NSLocalizedString("Electro", comment: "Title of Tamborine Instrument")
+        let title = NSLocalizedString("Electro", comment: "Title of Electro Instrument")
         let normal = Bundle.main.url(forResource: "c78l", withExtension: "wav")
         let accent = Bundle.main.url(forResource: "c78h", withExtension: "wav")
         let subdiv = Bundle.main.url(forResource: "c78l", withExtension: "wav")
