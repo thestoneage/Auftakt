@@ -30,7 +30,7 @@ struct PracticeSettingsView: View {
         NavigationView {
             Form {
                 Section() {
-                    Toggle(countInToggleTitle, isOn: $practice.countIn)
+//                    Toggle(countInToggleTitle, isOn: $practice.countIn)
                 }
                 Section() {
                     Text(lengthTitle)

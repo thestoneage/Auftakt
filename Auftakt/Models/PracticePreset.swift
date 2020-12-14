@@ -13,7 +13,7 @@ struct PracticePreset: Identifiable, Codable {
     
     var id = UUID()
     var name: String
-    var practice = Practice.defaultPractice
+    //var practice = Practice.defaultPractice
 }
 
 extension PracticePreset {

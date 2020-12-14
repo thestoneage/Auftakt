@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import MyMetronome
+@testable import Auftakt
 
 class PracticeTests: XCTestCase {
 

@@ -179,7 +179,7 @@ struct PracticeView: View {
         .padding()
         .onDisappear {
             self.runner.stop()
-            runner.saveCurrent()
+            //runner.saveCurrent()
         }
         .sheet(item: $sheet ) { item in
             switch item {

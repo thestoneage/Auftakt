@@ -55,7 +55,6 @@
 		491EB34C2564665F00C30283 /* SubdivTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3442564665F00C30283 /* SubdivTests.swift */; };
 		491EB34D2564665F00C30283 /* MeasureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3452564665F00C30283 /* MeasureTests.swift */; };
 		491EB34E2564665F00C30283 /* MetronomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3462564665F00C30283 /* MetronomeTests.swift */; };
-		491EB34F2564665F00C30283 /* PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EB3472564665F00C30283 /* PracticeTests.swift */; };
 		491EB3562564671700C30283 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 491EB3582564671700C30283 /* Localizable.stringsdict */; };
 		491EB35C2564672600C30283 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 491EB35E2564672600C30283 /* Localizable.strings */; };
 		491EB36E2564682200C30283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491EB36D2564682200C30283 /* Assets.xcassets */; };
@@ -136,7 +135,6 @@
 		491EB3442564665F00C30283 /* SubdivTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubdivTests.swift; sourceTree = "<group>"; };
 		491EB3452564665F00C30283 /* MeasureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureTests.swift; sourceTree = "<group>"; };
 		491EB3462564665F00C30283 /* MetronomeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetronomeTests.swift; sourceTree = "<group>"; };
-		491EB3472564665F00C30283 /* PracticeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeTests.swift; sourceTree = "<group>"; };
 		491EB3572564671700C30283 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		491EB35D2564672600C30283 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		491EB3622564675700C30283 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -222,7 +220,6 @@
 				491EB3452564665F00C30283 /* MeasureTests.swift */,
 				491EB3462564665F00C30283 /* MetronomeTests.swift */,
 				491EB3402564665F00C30283 /* NoteTests.swift */,
-				491EB3472564665F00C30283 /* PracticeTests.swift */,
 				491EB3432564665F00C30283 /* SoundsTests.swift */,
 				491EB3442564665F00C30283 /* SubdivTests.swift */,
 				491EB3422564665F00C30283 /* TabTempoTests.swift */,
@@ -517,7 +514,6 @@
 				491EB2AD256464C700C30283 /* AuftaktTests.swift in Sources */,
 				491EB34A2564665F00C30283 /* TabTempoTests.swift in Sources */,
 				491EB34D2564665F00C30283 /* MeasureTests.swift in Sources */,
-				491EB34F2564665F00C30283 /* PracticeTests.swift in Sources */,
 				491EB34C2564665F00C30283 /* SubdivTests.swift in Sources */,
 				491EB3492564665F00C30283 /* TempoTests.swift in Sources */,
 				491EB3482564665F00C30283 /* NoteTests.swift in Sources */,

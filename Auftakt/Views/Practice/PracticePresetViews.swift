@@ -13,7 +13,8 @@ struct PracticePresetRowView: View {
     var isBold: Bool = false
     
     var body: some View {
-        (Text("\(preset.name)\n") + Text(preset.practice.description).font(.caption))
+        (Text("\(preset.name)\n") + //Text(preset.practice.description).font(.caption))
+            Text("Test").font(.caption))
             .fontWeight(isBold ? .bold : .regular)
             .frame(maxWidth: .infinity, alignment: .leading)
             .contentShape(Rectangle())
@@ -83,7 +84,7 @@ struct PracticePresetListView: View {
                                     editTitle = preset.name
                                 }
                                 else {
-                                    practice = preset.practice
+                                    //practice = preset.practice
                                     presentationMode.wrappedValue.dismiss()
                                 }
                             }
@@ -117,7 +118,7 @@ struct PracticePresetListView: View {
     }
     
     func add() {
-        presets.append(PracticePreset(name: presetTitle, practice: practice))
+        //presets.append(PracticePreset(name: presetTitle, practice: practice))
         addMode.toggle()
     }
     
