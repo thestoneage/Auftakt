@@ -13,8 +13,7 @@ struct PracticePresetRowView: View {
     var isBold: Bool = false
     
     var body: some View {
-        (Text("\(preset.name)\n") + //Text(preset.practice.description).font(.caption))
-            Text("Test").font(.caption))
+        (Text("\(preset.name)\n") + Text(Practice(data: preset.data).description).font(.caption))
             .fontWeight(isBold ? .bold : .regular)
             .frame(maxWidth: .infinity, alignment: .leading)
             .contentShape(Rectangle())
@@ -84,7 +83,7 @@ struct PracticePresetListView: View {
                                     editTitle = preset.name
                                 }
                                 else {
-                                    //practice = preset.practice
+                                    practice = Practice(data: preset.data)
                                     presentationMode.wrappedValue.dismiss()
                                 }
                             }
@@ -98,6 +97,7 @@ struct PracticePresetListView: View {
             .navigationBarTitle(Text(navbarTitle), displayMode: .inline)
             .navigationBarItems(leading:
                                     Button(action: {
+                                        addMode = true
                                     }) {
                                         Image(systemName: "plus")
                                     }.disabled(editMode == .active),
@@ -118,7 +118,7 @@ struct PracticePresetListView: View {
     }
     
     func add() {
-        //presets.append(PracticePreset(name: presetTitle, practice: practice))
+        presets.append(PracticePreset(name: presetTitle, data: practice.data))
         addMode.toggle()
     }
     

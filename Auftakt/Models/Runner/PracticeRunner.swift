@@ -39,7 +39,7 @@ class PracticeRunner: Runable, Tickable {
     }
 
     init() {
-//        self.practice = Self.loadCurrentPractice() ?? Practice.defaultPractice
+        self.practice = Self.loadCurrentPractice() ?? Practice.defaultPractice
         self.practice = Practice.defaultPractice
         runner.delegate = self
         runner.sound = instrument.sounds
@@ -62,20 +62,20 @@ class PracticeRunner: Runable, Tickable {
         }
     }
         
-//    static func loadCurrentPractice() -> Practice? {
-//        if let saved = UserDefaults.standard.object(forKey: Self.practiceKey) as? Data {
-//            let decoder = JSONDecoder()
-//            if let decoded = try? decoder.decode(Practice.self, from: saved) {
-//                return decoded
-//            }
-//        }
-//        return nil
-//    }
-//
-//    func saveCurrent() {
-//        let encoder = JSONEncoder()
-//        if let encoded = try? encoder.encode(self.practice) {
-//            UserDefaults.standard.set(encoded, forKey: Self.practiceKey)
-//        }
-//    }
+    static func loadCurrentPractice() -> Practice? {
+        if let saved = UserDefaults.standard.object(forKey: Self.practiceKey) as? Data {
+            let decoder = JSONDecoder()
+            if let decoded = try? decoder.decode(PracticeData.self, from: saved) {
+                return Practice(data: decoded)
+            }
+        }
+        return nil
+    }
+
+    func saveCurrent() {
+        let encoder = JSONEncoder()
+        if let encoded = try? encoder.encode(self.practice.data) {
+            UserDefaults.standard.set(encoded, forKey: Self.practiceKey)
+        }
+    }
 }
