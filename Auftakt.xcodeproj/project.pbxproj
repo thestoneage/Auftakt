@@ -142,6 +142,7 @@
 		491EB36D2564682200C30283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		495CB1F4257837AE00439E3C /* c78h.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = c78h.wav; sourceTree = "<group>"; };
 		495CB1F5257837AE00439E3C /* c78l.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = c78l.wav; sourceTree = "<group>"; };
+		496FA64F2588057F003C3E7E /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				490B016D2566B5030034B0FC /* README.md */,
+				496FA64F2588057F003C3E7E /* TODO.md */,
 				491EB299256464C500C30283 /* Auftakt */,
 				491EB2AB256464C700C30283 /* AuftaktTests */,
 				491EB2B6256464C700C30283 /* AuftaktUITests */,
