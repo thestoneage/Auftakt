@@ -30,7 +30,12 @@ struct PracticeSettingsView: View {
         NavigationView {
             Form {
                 Section() {
-//                    Toggle(countInToggleTitle, isOn: $practice.countIn)
+                    Text("Count in")
+                    Picker(selection: $practice.countIn, label: Text("Count in"), content: {
+                        ForEach(CountIn.allCases, id: \.self) { countInType in
+                            Text(countInType.description).tag(countInType.rawValue)
+                        }
+                    }).pickerStyle(SegmentedPickerStyle())
                 }
                 Section() {
                     Text(lengthTitle)

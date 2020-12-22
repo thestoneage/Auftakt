@@ -7,10 +7,14 @@
 //
 
 import Foundation
-enum CountIn: Int, Codable {
-    case always
-    case start
+enum CountIn: Int, Codable, CaseIterable {
     case never
+    case start
+    case always
+    
+    var description: String {
+        return "\(self)"
+    }
 }
 
 enum BarType: Int, Codable {
